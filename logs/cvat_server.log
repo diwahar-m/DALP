@@ -1,0 +1,293 @@
+[2023-06-01 10:15:45,105] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-01 10:26:34,077] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-01 10:28:54,525] INFO django.server: "GET /admin/ HTTP/1.1" 302 0
+[2023-06-01 10:28:55,011] INFO django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[2023-06-01 10:28:55,163] INFO django.server: "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[2023-06-01 10:28:55,166] INFO django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[2023-06-01 10:28:55,177] INFO django.server: "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[2023-06-01 10:28:55,188] INFO django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[2023-06-01 10:28:55,491] INFO django.server: "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2023-06-01 10:28:55,497] INFO django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[2023-06-01 10:28:55,635] INFO django.server: "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2023-06-01 10:28:55,635] INFO django.server: "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2023-06-01 10:28:56,703] WARNING django.request: Not Found: /favicon.ico
+[2023-06-01 10:28:56,724] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 4042
+[2023-06-01 10:28:59,013] INFO django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2374
+[2023-06-01 10:28:59,115] INFO django.server: "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2023-06-01 10:29:12,267] WARNING django.security.csrf: Forbidden (CSRF token missing or incorrect.): /admin/login/
+[2023-06-01 10:29:12,273] WARNING django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2519
+[2023-06-01 10:29:44,547] INFO django.server: "GET / HTTP/1.1" 301 0
+[2023-06-01 10:30:50,825] INFO django.server: "GET / HTTP/1.1" 301 0
+[2023-06-01 10:31:07,591] INFO django.server: "GET / HTTP/1.1" 301 0
+[2023-06-01 10:41:12,728] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-01 10:42:53,448] INFO django.server: "GET /admin/ HTTP/1.1" 302 0
+[2023-06-01 10:42:53,716] INFO django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[2023-06-01 10:43:30,172] WARNING django.security.csrf: Forbidden (CSRF token missing or incorrect.): /admin/login/
+[2023-06-01 10:43:30,177] WARNING django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2519
+[2023-06-01 10:47:28,095] WARNING django.security.csrf: Forbidden (CSRF token missing or incorrect.): /admin/login/
+[2023-06-01 10:47:28,120] WARNING django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2519
+[2023-06-01 10:47:45,973] WARNING django.security.csrf: Forbidden (CSRF cookie not set.): /admin/login/
+[2023-06-01 10:47:45,976] WARNING django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2870
+[2023-06-01 10:47:53,166] WARNING django.security.csrf: Forbidden (CSRF cookie not set.): /admin/login/
+[2023-06-01 10:47:53,168] WARNING django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2870
+[2023-06-01 10:47:57,904] INFO django.server: "GET /admin HTTP/1.1" 301 0
+[2023-06-01 10:47:57,928] INFO django.server: "GET /admin/ HTTP/1.1" 302 0
+[2023-06-01 10:47:58,042] INFO django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[2023-06-01 10:48:08,662] INFO django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2374
+[2023-06-01 10:48:28,457] INFO django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2023-06-01 10:48:28,553] INFO django.server: "GET /admin/ HTTP/1.1" 200 8953
+[2023-06-01 10:48:28,647] INFO django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[2023-06-01 10:48:28,766] INFO django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2023-06-01 10:48:28,778] INFO django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2023-06-01 10:48:45,315] INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 302 0
+[2023-06-01 10:48:45,367] INFO django.server: "GET /admin/login/?next=/admin/auth/user/ HTTP/1.1" 200 2234
+[2023-06-01 10:48:48,541] INFO django.server: "POST /admin/login/?next=/admin/auth/user/ HTTP/1.1" 200 2394
+[2023-06-01 10:49:07,720] INFO django.server: "POST /admin/login/?next=/admin/auth/user/ HTTP/1.1" 302 0
+[2023-06-01 10:49:08,156] INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12594
+[2023-06-01 10:49:08,311] INFO django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+[2023-06-01 10:49:08,408] INFO django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[2023-06-01 10:49:08,419] INFO django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[2023-06-01 10:49:08,474] INFO django.server: "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[2023-06-01 10:49:08,478] INFO django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[2023-06-01 10:49:08,478] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-06-01 10:49:08,494] INFO django.server: "GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+[2023-06-01 10:49:08,666] INFO django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[2023-06-01 10:49:08,667] INFO django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[2023-06-01 10:49:08,683] INFO django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[2023-06-01 10:49:08,726] INFO django.server: "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[2023-06-01 10:49:08,738] INFO django.server: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2023-06-01 10:49:08,789] INFO django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2023-06-01 10:49:08,790] INFO django.server: "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2023-06-01 10:49:14,653] ERROR django.request: Internal Server Error: /admin/auth/user/1/change/
+Traceback (most recent call last):
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (category) specified for User
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (category) specified for User. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+[2023-06-01 10:49:14,657] ERROR django.server: "GET /admin/auth/user/1/change/ HTTP/1.1" 500 166329
+[2023-06-01 10:51:07,026] INFO django.utils.autoreload: /mnt/d/DIGIYODA-WORK/main-dalp-ai(work3)/main-dalp-ai-modal-popup-bug/cvat/apps/iam/admin.py changed, reloading.
+[2023-06-01 10:51:21,763] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-01 10:52:14,323] INFO django.server: "GET /admin/ HTTP/1.1" 302 0
+[2023-06-01 10:52:14,581] INFO django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[2023-06-01 10:52:37,582] INFO django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2023-06-01 10:52:37,712] INFO django.server: "GET /admin/ HTTP/1.1" 200 8953
+[2023-06-01 10:54:53,746] INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 302 0
+[2023-06-01 10:54:53,799] INFO django.server: "GET /admin/login/?next=/admin/auth/user/ HTTP/1.1" 200 2234
+[2023-06-01 10:55:11,046] INFO django.server: "POST /admin/login/?next=/admin/auth/user/ HTTP/1.1" 302 0
+[2023-06-01 10:55:11,288] INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12594
+[2023-06-01 10:55:11,445] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-06-01 11:09:58,956] INFO django.server: "GET /admin/engine/project/ HTTP/1.1" 302 0
+[2023-06-01 11:09:59,045] INFO django.server: "GET /admin/login/?next=/admin/engine/project/ HTTP/1.1" 200 2244
+[2023-06-01 11:10:18,724] INFO django.server: "POST /admin/login/?next=/admin/engine/project/ HTTP/1.1" 302 0
+[2023-06-01 11:10:18,972] INFO django.server: "GET /admin/engine/project/ HTTP/1.1" 200 8994
+[2023-06-01 11:10:19,175] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-06-01 11:10:26,349] INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12594
+[2023-06-01 11:10:26,428] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-06-01 11:10:32,687] ERROR django.request: Internal Server Error: /admin/auth/user/1/change/
+Traceback (most recent call last):
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (category) specified for User
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/home/diwahar-m-s/.local/lib/python3.8/site-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (category) specified for User. Check fields/fieldsets/exclude attributes of class CustomUserAdmin.
+[2023-06-01 11:10:32,765] ERROR django.server: "GET /admin/auth/user/1/change/ HTTP/1.1" 500 166758
+[2023-06-01 11:16:58,225] INFO django.utils.autoreload: /mnt/d/DIGIYODA-WORK/main-dalp-ai(work3)/main-dalp-ai-modal-popup-bug/cvat/apps/iam/admin.py changed, reloading.
+[2023-06-01 11:57:39,836] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-01 12:04:51,345] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-01 12:06:22,548] INFO django.utils.autoreload: /mnt/d/DIGIYODA-WORK/main-dalp-ai(work3)/main-dalp-ai-modal-popup-bug/cvat/settings/base.py changed, reloading.
+[2023-06-01 12:06:42,733] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-01 12:07:08,223] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-01 12:12:24,414] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-01 12:41:11,986] INFO django.server: "GET / HTTP/1.1" 301 0
+[2023-06-01 13:56:46,062] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-01 14:02:58,102] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-01 14:04:37,141] INFO django.server: "GET / HTTP/1.1" 301 0
+[2023-06-01 14:05:03,307] WARNING django.request: Not Found: /tasks
+[2023-06-01 14:05:03,311] WARNING django.server: "GET /tasks?page=1 HTTP/1.1" 404 4031
+[2023-06-01 14:05:03,563] WARNING django.request: Not Found: /favicon.ico
+[2023-06-01 14:05:03,572] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 4042
+[2023-06-01 14:05:07,739] WARNING django.request: Not Found: /tasks
+[2023-06-01 14:05:07,741] WARNING django.server: "GET /tasks HTTP/1.1" 404 4024
+[2023-06-01 14:16:12,405] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-01 14:28:53,382] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-01 14:32:27,226] INFO django.server: "GET /admin HTTP/1.1" 301 0
+[2023-06-01 14:32:27,438] INFO django.server: "GET /admin/ HTTP/1.1" 302 0
+[2023-06-01 14:32:27,772] INFO django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[2023-06-01 14:32:27,874] INFO django.server: "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[2023-06-01 14:32:27,883] INFO django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[2023-06-01 14:32:27,889] INFO django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[2023-06-01 14:32:27,977] INFO django.server: "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2023-06-01 14:32:27,980] INFO django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[2023-06-01 14:32:35,147] INFO django.server: "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2023-06-01 14:32:35,149] INFO django.server: "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2023-06-01 14:32:57,284] INFO django.server: "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[2023-06-02 05:35:02,664] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-02 05:46:24,794] INFO django.utils.autoreload: /mnt/d/DIGIYODA-WORK/main-dalp-ai(work3)/main-dalp-ai-modal-popup-bug/cvat/apps/iam/views.py changed, reloading.
+[2023-06-02 05:47:02,957] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-02 06:22:30,130] INFO django.utils.autoreload: /mnt/d/DIGIYODA-WORK/main-dalp-ai(work3)/main-dalp-ai-modal-popup-bug/cvat/apps/iam/views.py changed, reloading.
+[2023-06-02 06:22:44,622] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-02 06:43:52,514] INFO django.utils.autoreload: /mnt/d/DIGIYODA-WORK/main-dalp-ai(work3)/main-dalp-ai-modal-popup-bug/cvat/apps/iam/views.py changed, reloading.
+[2023-06-02 06:44:16,077] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-02 13:57:41,323] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-02 13:59:34,482] INFO django.server: "GET /admin HTTP/1.1" 301 0
+[2023-06-02 13:59:34,667] INFO django.server: "GET /admin/ HTTP/1.1" 302 0
+[2023-06-02 13:59:35,519] INFO django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[2023-06-02 13:59:35,638] INFO django.server: "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[2023-06-02 13:59:35,638] INFO django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[2023-06-02 13:59:35,647] INFO django.server: "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[2023-06-02 13:59:35,660] INFO django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[2023-06-02 13:59:35,712] INFO django.server: "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2023-06-02 13:59:35,720] INFO django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[2023-06-02 13:59:35,990] INFO django.server: "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2023-06-02 13:59:35,995] INFO django.server: "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2023-06-02 13:59:36,929] WARNING django.request: Not Found: /favicon.ico
+[2023-06-02 13:59:36,932] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 4042
+[2023-06-03 05:12:20,477] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-03 05:13:45,283] INFO django.server: "GET /admin HTTP/1.1" 301 0
+[2023-06-03 05:13:45,720] INFO django.server: "GET /admin/ HTTP/1.1" 302 0
+[2023-06-03 05:13:47,905] INFO django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[2023-06-03 05:13:48,176] INFO django.server: "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[2023-06-03 05:13:48,178] INFO django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[2023-06-03 05:13:48,180] INFO django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[2023-06-03 05:13:48,191] INFO django.server: "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[2023-06-03 05:13:48,200] INFO django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[2023-06-03 05:13:48,214] INFO django.server: "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2023-06-03 05:13:48,599] INFO django.server: "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2023-06-03 05:13:48,636] INFO django.server: "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2023-06-03 05:13:49,934] WARNING django.request: Not Found: /favicon.ico
+[2023-06-03 05:13:49,940] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 4042
+[2023-06-03 05:14:07,565] INFO django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2380
+[2023-06-03 05:14:07,692] INFO django.server: "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2023-06-03 05:14:21,136] INFO django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2023-06-03 05:14:21,258] INFO django.server: "GET /admin/ HTTP/1.1" 200 8953
+[2023-06-03 05:14:21,341] INFO django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[2023-06-03 05:14:21,403] INFO django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2023-06-03 05:14:21,404] INFO django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2023-06-03 05:14:26,806] INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12594
+[2023-06-03 05:14:26,891] INFO django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+[2023-06-03 05:14:26,904] INFO django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[2023-06-03 05:14:26,904] INFO django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[2023-06-03 05:14:26,922] INFO django.server: "GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+[2023-06-03 05:14:26,927] INFO django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[2023-06-03 05:14:26,933] INFO django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[2023-06-03 05:14:26,939] INFO django.server: "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[2023-06-03 05:14:26,964] INFO django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[2023-06-03 05:14:26,989] INFO django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[2023-06-03 05:14:27,015] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-06-03 05:14:27,040] INFO django.server: "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[2023-06-03 05:14:27,082] INFO django.server: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2023-06-03 05:14:27,099] INFO django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2023-06-03 05:14:27,118] INFO django.server: "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2023-06-03 05:14:32,878] INFO django.server: "GET /admin/auth/user/1/change/ HTTP/1.1" 200 21727
+[2023-06-03 05:14:32,938] INFO django.server: "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[2023-06-03 05:14:32,983] INFO django.server: "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+[2023-06-03 05:14:32,990] INFO django.server: "GET /static/admin/js/inlines.js HTTP/1.1" 200 15225
+[2023-06-03 05:14:32,992] INFO django.server: "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4360
+[2023-06-03 05:14:33,008] INFO django.server: "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+[2023-06-03 05:14:33,027] INFO django.server: "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+[2023-06-03 05:14:33,072] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-06-03 05:14:33,103] INFO django.server: "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[2023-06-03 05:14:33,161] INFO django.server: "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[2023-06-03 05:14:54,877] INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12594
+[2023-06-03 05:15:04,897] INFO django.server: "GET /admin/engine/project/ HTTP/1.1" 200 8994
+[2023-06-03 05:15:05,265] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-06-03 05:15:09,561] INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12594
+[2023-06-03 05:15:09,728] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-06-03 05:15:45,936] INFO django.utils.autoreload: /mnt/d/DIGIYODA-WORK/main-dalp-ai(work3)/main-dalp-ai-modal-popup-bug/cvat/apps/iam/views.py changed, reloading.
+[2023-06-03 05:16:38,094] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-03 05:17:58,859] INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12594
+[2023-06-03 05:17:59,018] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-06-03 05:43:37,491] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-03 05:47:12,420] INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12594
+[2023-06-03 05:47:15,739] INFO django.server: "GET /admin/auth/user/add/ HTTP/1.1" 200 15777
+[2023-06-03 05:47:15,890] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-06-03 05:47:16,163] INFO django.server: "GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 560
+[2023-06-03 06:48:32,138] INFO django.utils.autoreload: /mnt/d/DIGIYODA-WORK/main-dalp-ai(work3)/main-dalp-ai-modal-popup-bug/cvat/apps/iam/urls.py changed, reloading.
+[2023-06-03 06:49:08,799] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-03 12:58:53,895] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2023-06-03 13:00:00,435] INFO django.server: "GET /admin HTTP/1.1" 301 0
+[2023-06-03 13:00:01,002] INFO django.server: "GET /admin/ HTTP/1.1" 200 8953
+[2023-06-03 13:00:01,193] INFO django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[2023-06-03 13:00:01,345] INFO django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2023-06-03 13:00:10,214] INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12594
+[2023-06-03 13:00:10,401] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-06-03 13:00:14,654] INFO django.server: "GET /admin/auth/user/add/ HTTP/1.1" 200 15777
+[2023-06-03 13:00:14,796] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-06-03 13:00:15,069] INFO django.server: "GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 560
+[2023-06-03 13:01:14,476] INFO django.server: "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[2023-06-03 13:01:14,956] INFO django.server: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 21856
+[2023-06-03 13:01:15,318] INFO django.server: "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[2023-06-03 13:01:15,398] INFO django.server: "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+[2023-06-03 13:02:05,429] INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12980
+[2023-06-03 13:02:05,565] INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-06-03 13:02:05,691] INFO django.server: "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[2023-06-03 13:02:13,672] INFO django.server: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 21634
+[2023-06-03 13:02:13,971] INFO django.server: "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+[2023-06-03 13:02:13,972] INFO django.server: "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4360

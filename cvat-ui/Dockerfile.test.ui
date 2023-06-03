@@ -1,0 +1,17 @@
+FROM node:bullseye
+
+COPY package.json /app/
+COPY yarn.lock /app/
+COPY webpack.config.js /app/
+
+COPY cvat-data/ /app/cvat-data/
+COPY cvat-core/ /app/cvat-core/
+COPY cvat-canvas3d/ /app/cvat-canvas3d/
+COPY cvat-canvas/ /app/cvat-canvas/
+COPY cvat-ui/ /app/cvat-ui/
+
+WORKDIR /app/
+RUN yarn install --ignore-scripts
+
+EXPOSE 3000
+CMD ["yarn", "run", "start:cvat-ui"]
